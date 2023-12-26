@@ -36,7 +36,7 @@ export class LoopbackApplication extends BootMixin(
       controllers: {
         // Customize ControllerBooter Conventions here
         dirs: ['controllers'],
-        extensions: ['.controller.js'],
+        extensions: ['.controller.ts'],
         nested: true,
       },
     };
